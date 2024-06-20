@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacional Rock Music Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Festival de Rock Nacional</h1>
+            
+            <nav class="navegacion-principal">
+                <a href="#lineup">Participantes</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#boletos">Boletos</a>
+            </nav>
+        </div>
+    </header>
+    <div class="video">
+        <div class="overlay"> 
+            <div class="contenedor contenido-video">
+                <h2>Festival de Rock Nacional</h2>
+                <p>Septiembre 2023, Asunción, Paraguay.</p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+            <picture>
+                <source srcset="build/img/flou.webp" type="image/webp">
+                <img width="200" height="300" src="build/img/flou.jpg" alt="Imagen de concierto">
+            </picture>
+        </div>
+        <div class="contenido-festival">
+            <h2>Lo mejor del Rock Nacional</h2>
+            <p class="fecha">Septiembre 2023, Asunción, Paraguay.</p>
+            <p>¡No te pierdas el concierto de rock nacional del año! Únete a nosotros para una noche épica con los mejores himnos musicales y bandas emblemáticas. Celebremos juntos la esencia de nuestra música. ¡Consigue tu entrada ahora!</p>
+        </div>
+    </section>
+
+    <section id="lineup" class="lineup">
+        <h3>Programación</h3> 
+        
+        <p class="dia"> Sábado 23 </p>
+        <div class="escenarios-contenedor contenedor"> 
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Rock Nacional</p>
+                    <ul class="calendario"> 
+                        <li>
+                            23:00 | <span>Revolber</span>
+                        </li>
+                        <li>
+                            00:00 | <span>Flou</span>
+                        </li>
+                        <li>
+                            01:00 | <span>Paiko</span>
+                        </li>
+                        <li>
+                            02:00 | <span>La Secreta</span>
+                        </li>
+                        <li>
+                            03:00 | <span>Salamandra</span>
+                        </li>
+                        <li>
+                            04:00 | <span>Kauzar</span>
+                        </li>
+                    </ul>
+            </div> <!--Cierre escenarios-->
+
+            <div class="escenario emergente  bg-verde">
+                <p class="nombre-escenario">Rock Emergente</p>
+                    <ul class="calendario"> 
+                        <li>
+                            17:00 | <span>Mil Hijos</span>
+                        </li>
+                        <li>
+                            18:00 | <span>Ángeles Sangrientos</span>
+                        </li>
+                        <li>
+                            19:00 | <span>Space Wolves</span>
+                        </li>
+                        <li>
+                            20:00 | <span>Portadores de la Palabra</span>
+                        </li>
+                        <li>
+                            21:00 | <span>Iron Hands</span>
+                        </li>
+                        <li>
+                            22:00 | <span>Death Guard</span>
+                        </li>
+                    </ul>
+            </div> <!--Cierre escenarios-->
+        </div> <!--Cierre contenedor escenarios-->
+
+        <p class="dia"> Domingo 24 </p>
+        <div class="escenarios-contenedor contenedor"> 
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Rock Nacional</p>
+                    <ul class="calendario"> 
+                        <li>
+                            23:00 | <span>Revolber</span>
+                        </li>
+                        <li>
+                            00:00 | <span>Flou</span>
+                        </li>
+                        <li>
+                            01:00 | <span>Paiko</span>
+                        </li>
+                        <li>
+                            02:00 | <span>La Secreta</span>
+                        </li>
+                        <li>
+                            03:00 | <span>Salamandra</span>
+                        </li>
+                        <li>
+                            04:00 | <span>Kauzar</span>
+                        </li>
+                    </ul>
+            </div> <!--Cierre escenarios-->
+
+            <div class="escenario emergente  bg-verde">
+                <p class="nombre-escenario">Rock Emergente</p>
+                    <ul class="calendario"> 
+                        <li>
+                            17:00 | <span>Mil Hijos</span>
+                        </li>
+                        <li>
+                            18:00 | <span>Ángeles Sangrientos</span>
+                        </li>
+                        <li>
+                            19:00 | <span>Space Wolves</span>
+                        </li>
+                        <li>
+                            20:00 | <span>Portadores de la Palabra</span>
+                        </li>
+                        <li>
+                            21:00 | <span>Iron Hands</span>
+                        </li>
+                        <li>
+                            22:00 | <span>Death Guard</span>
+                        </li>
+                    </ul>
+            </div> <!--Cierre escenarios-->
+        </div> <!--Cierre contenedor escenarios-->
+    </section>
+
+    <section id="galeria" class="galeria contendor">
+        <h3>Galeria</h3>
+            <ul class="galeria-imagenes"> 
+
+            </ul>
+    </section>
+    <section id="boletos" class="boletos bg-verde"> 
+        <h3>Boleteria</h3>
+        <div class="contendor contendor-boletos">
+                <div class="basico pase"> 
+                    <p class="nombre-pase">Pase 1 Dia</p>
+                    <header class="pase-header">
+                        <p>INCLUYE</p>
+                    </header>
+                    <div class="pase-body">
+                        <ul>
+                            <li>
+                                Acceso a ambos escenarios
+                            </li>
+                            <li>
+                                Comida y Bebida
+                            </li>
+                            <li>
+                                Zona de descanso
+                            </li>
+                        </ul>
+                    </div>
+                    <footer class="pase-footer">
+                        <p>250.000</p>
+                    </footer>
+                </div>
+        
+        <div class="vip pase"> 
+            <p class="nombre-pase">Pase 2 Dia</p>
+            <header class="pase-header">
+                <p>INCLUYE</p>
+            </header>
+            <div class="pase-body">
+                <ul>
+                    <li>
+                        Acceso a ambos escenarios
+                    </li>
+                    <li>
+                        Comida y Bebida
+                    </li>
+                    <li>
+                        Camisa del evento
+                    </li>
+                    <li>
+                        Acceso VIP a todas las zonas
+                    </li>
+                    <li>
+                        Zona de descanso
+                    </li>
+                    <li>
+                        Estadía Privada
+                    </li>
+                </ul>
+            </div>
+            <footer class="pase-footer">
+                        <p>400.000</p>
+            </footer>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <footer class="site-footer"> 
+        <p>Rock Nacional. Todos los derechos reservados</p>
+    </footer>
+
+    <script src="build/js/galeria.js"> </script>
+</body>
+</html>
